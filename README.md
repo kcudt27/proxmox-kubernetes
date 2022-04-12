@@ -35,6 +35,9 @@ virtualenv .ansible
 
 # Activate the virtual environment according to your shell (e.g. fish)
 . .ansible/bin/activate.fish
+# for Ubuntu
+   cd .ansible
+   source bin/activate
 ```
 
 ## Terraform Secrets
